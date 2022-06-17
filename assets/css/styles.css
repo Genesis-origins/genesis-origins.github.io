@@ -7,6 +7,7 @@
 	font-size: 1em;
 	color: #393939;
 	font-family: Monserrat, sans-serif;
+	font-weight: 500;
 }
 
 html, body {
@@ -41,11 +42,16 @@ header {
 	cursor: pointer;
 }
 
-a {
+.menu li a {
 	text-decoration: none;
+	transition: all 0.3s ease 0s;
 }
 
-input {
+.menu li a:hover {
+	color: #ffffff;
+}
+
+.searcher {
 	width: 150px;
 }
 
@@ -53,6 +59,7 @@ article {
 	box-sizing: border-box;
 	margin: 5px 15px;
 	padding: 10px 15px;
+	border-radius: 0.5rem;
 	/* width: 100% - 20px; */
 	/* height: 500px; */
 	box-shadow: 
@@ -71,7 +78,7 @@ article {
 .foot {
 	display: flex;
 	justify-content: space-between;
-	background-color: #6495ed;
+	background-color: #edbc64;
 	padding: 5px 20px;
 	margin-top: 10px;
 	border-top-left-radius: 10px;
